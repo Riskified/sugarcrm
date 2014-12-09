@@ -11,7 +11,7 @@ module SugarCRM; class Connection
     else
       fields = ["id"]
     end
-    fields.to_json
+    fields
   end
   
   def resolve_fields(module_name, fields)
